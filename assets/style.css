@@ -14,7 +14,7 @@ body {
 
 span {
   color: #4669ef;
-  font-size: 3vw;
+  font-size: 2.5vw;
 	display: block;
 	width: 100%;
 }
@@ -29,5 +29,8 @@ section {
 }
 
 div {
-	
+	margin-top: 50px;
+	font-size: 2vw;
+	color: #4669ef;
+	line-height: 50px;
 }
