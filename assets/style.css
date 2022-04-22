@@ -14,12 +14,12 @@ div{
   width:100vh;
   max-height:100vw;
   margin:0;
-  background:#abc;
   overflow-y:auto;
   overflow-x:hidden;
   transform:rotate(-90deg) translateY(-100vh);
   transform-origin:right top;
 }
+
 .horizontal-scroll-wrapper > div{
   display:block;
   padding:5px;
@@ -36,4 +36,8 @@ div{
   width:60px;
   height:60px;
   margin:10px;
+}
+
+div:nth-child(5) {
+	width:200px;
 }
