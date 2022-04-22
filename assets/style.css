@@ -10,22 +10,24 @@ body {
   /* background: linear-gradient(90deg, orange, purple); */
   background-size: 210% auto;
 	margin-left: 30px;
-
-  display: flex;
-  /* align-items: center;
-  justify-content: center; */
 }
 
-p {
+span {
   color: #4669ef;
   font-size: 3vw;
+	display: block;
+	width: 100%;
 }
 
 a:hover {
 	color: #767676;
 }
 
+section {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
 div {
-	display: inline-block;
-	background: blue;
+	
 }
