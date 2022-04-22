@@ -2,20 +2,30 @@ html,
 body {
   height: 100%;
   overflow: hidden;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 body {
   width: 200%;
-  background: linear-gradient(90deg, orange, purple);
+  /* background: linear-gradient(90deg, orange, purple); */
   background-size: 210% auto;
+	margin-left: 30px;
 
   display: flex;
-  align-items: center;
-  justify-content: center;
+  /* align-items: center;
+  justify-content: center; */
 }
 
 p {
-  color: #fff;
-  font-size: 4vw;
-  font-family: monospace;
+  color: #4669ef;
+  font-size: 3vw;
+}
+
+a:hover {
+	color: #767676;
+}
+
+div {
+	display: inline-block;
+	background: blue;
 }
