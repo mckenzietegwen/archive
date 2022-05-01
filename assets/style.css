@@ -20,7 +20,11 @@ span {
 }
 
 #ux, #mogra, #layout, img {
-  margin-top: 200px;
+  margin-top: 25px;
+  font-size: 1.5vw;
+}
+
+p {
   font-size: 1vw;
 }
 
