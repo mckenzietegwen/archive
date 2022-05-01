@@ -1,5 +1,6 @@
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  transition: background-color 1s ease;
 }
 
 section {
@@ -8,6 +9,10 @@ section {
   grid-template-areas:
   "close metadata images";
   margin: 80px 80px;
+}
+
+#qr {
+  width: 50%;
 }
 
 /* three columns */
@@ -26,6 +31,7 @@ div:nth-child(2) {
 
 div:nth-child(3) {
   grid-area: images;
+  justify-content: center;
 }
 
 /* close button */
@@ -63,4 +69,8 @@ span {
 
 i {
   font-style: italic;
+}
+
+a:hover {
+	color: #767676;
 }
