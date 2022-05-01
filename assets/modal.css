@@ -1,24 +1,51 @@
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
 section {
   display: grid;
-  grid-template-columns: 1fr 1fr 3fr;
+  grid-template-columns: .5fr 1.5fr 3fr;
   grid-template-areas:
   "close metadata images";
   margin: 0px 100px;
 }
 
+/* three columns */
+
 div:first-child {
   grid-area: close;
   height: 100vh;
-  background-color: blue;
+  align-items: center;
 }
 
 div:nth-child(2) {
   grid-area: metadata;
   height: 100vh;
-  background-color: orange;
 }
 
 div:nth-child(3) {
   grid-area: images;
   background-color: green;
+}
+
+/* close button */
+
+#close {
+  width: 40%;
+}
+
+#next {
+  width: 50%;
+}
+
+#back {
+  width: 50%;
+  transform: scaleX(-1);
+}
+
+/* labels */
+
+#label {
+  font-size: 1vw;
+  color: #4669ef;
 }
