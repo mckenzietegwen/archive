@@ -19,7 +19,7 @@ span {
 	color: #4669ef;
 }
 
-#ux, #mogra, #layout, img {
+#twentytwo, #twentyone, #twenty, img {
   margin-top: 25px;
   font-size: 1.5vw;
 }
@@ -30,28 +30,52 @@ p {
 
 #hero {
   padding-right: 60px;
-  width: 100vw;
+  width: 85vw;
 }
 
 em {
-  color: rgb(231,51,35);
+  color: #767676;
+  opacity: 50%;
 }
 
 li {
   display: inline-block;
   float: left;
   height: 100vh;
-  width: 50vw;
+  width: 65vw;
   color: #4669ef;
 }
 
 ul {
   font-size: 1.5vw;
-  padding-right: 30px;
+  padding-right: 40px;
   line-height: 3vw;
 }
 
 div {
     float: left;
     align-content: left;
+}
+
+sup {
+  vertical-align: super;
+  font-size: .9vw;
+  color: white;
+  padding: 0px 2px;
+}
+
+#ux {
+  border: 1px solid #EF2D56;
+  background: #EF2D56;
+}
+
+#layout {
+  border: 1px solid #0CCE6B;
+  background: #0CCE6B;
+}
+
+#motion {
+  border: 1px solid #DCED31;
+  background: #DCED31;
+  color: black;
 }
