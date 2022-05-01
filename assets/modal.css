@@ -7,7 +7,7 @@ section {
   grid-template-columns: .5fr 1.5fr 3fr;
   grid-template-areas:
   "close metadata images";
-  margin: 0px 100px;
+  margin: 80px 80px;
 }
 
 /* three columns */
@@ -21,11 +21,11 @@ div:first-child {
 div:nth-child(2) {
   grid-area: metadata;
   height: 100vh;
+  margin-right: 30px;
 }
 
 div:nth-child(3) {
   grid-area: images;
-  background-color: green;
 }
 
 /* close button */
@@ -35,17 +35,32 @@ div:nth-child(3) {
 }
 
 #next {
-  width: 50%;
+  width: 55%;
 }
 
 #back {
-  width: 50%;
+  width: 55%;
   transform: scaleX(-1);
 }
 
-/* labels */
+/* project labels */
 
 #label {
   font-size: 1vw;
   color: #4669ef;
+}
+
+/* label project info */
+
+span {
+  font-size: 2vw;
+  color: #4669ef;
+}
+
+#details {
+  font-size: 1.5vw;
+}
+
+i {
+  font-style: italic;
 }
