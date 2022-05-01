@@ -6,22 +6,13 @@ body {
 }
 
 body {
-  width: 200%;
-  /* background: linear-gradient(90deg, orange, purple); */
-  /* background-size: 210% auto; */
+  width: 150vw;
 	margin-left: 30px;
 }
 
 a:hover {
 	color: #767676;
 }
-
-/* section {
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-template-areas:
-  "image image image image column column column";
-} */
 
 span {
 	font-size: 2vw;
@@ -33,13 +24,10 @@ span {
   font-size: 2vw;
 }
 
-p {
-  color: #4669ef;
-  font-size: 1.2vw;
-  line-height: 1.5vw;
-	display: block;
-	width: 100%;
-  padding-right: 30px;
+#hero {
+  padding-right: 100px;
+  height: 100vh;
+  width: 95vw;
 }
 
 em {
@@ -48,14 +36,30 @@ em {
 
 img {
   width: auto;
-  height: 85vh;
+  /* height: 80vh; */
 }
 
+
 li {
-  display: inline;
+  display: inline-block;
   float: left;
   color: #4669ef;
-  font-size: 1.2vw;
   line-height: 1.5vw;
+  height: 100vh;
+  width: 55vw;
+}
+
+ul {
+  font-size: 1.5vw;
   padding-right: 30px;
+  display: list-item;
+}
+
+div {
+    float: left;
+    align-content: left;
+}
+
+#clearfix {
+  clear: both;
 }
