@@ -77,3 +77,24 @@ i {
 a:hover {
 	color: #767676;
 }
+
+
+
+.tooltip {
+  text-decoration:none;
+  position:relative;
+}
+
+.tooltip span {
+  display:none;
+  -moz-border-radius:6px;
+  -webkit-border-radius:6px;
+  border-radius:6px;
+  color:black;
+  background:white;
+}
+
+.tooltip span img {
+  float:left;
+  margin:0px 8px 8px 0;
+}
