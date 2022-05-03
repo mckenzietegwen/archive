@@ -7,7 +7,8 @@ section {
   display: grid;
   grid-template-columns: .5fr 1.5fr 3fr;
   grid-template-areas:
-  "close metadata images";
+  "close metadata images"
+  "close metadata caption";
   margin: 80px 80px;
 }
 
@@ -28,6 +29,12 @@ div:nth-child(2) {
 div:nth-child(3) {
   grid-area: images;
   justify-content: center;
+}
+
+div:nth-child(4) {
+  grid-area: caption;
+  text-align: right;
+  padding-top: 10px;
 }
 
 /* close button */
@@ -69,4 +76,8 @@ i {
 
 a:hover {
 	color: #767676;
+}
+
+#caption {
+    font-size: 1.5vw;
 }
