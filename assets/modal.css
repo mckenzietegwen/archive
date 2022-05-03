@@ -16,19 +16,16 @@ section {
 
 div:first-child {
   grid-area: close;
-  height: 100vh;
   align-items: center;
 }
 
 div:nth-child(2) {
   grid-area: metadata;
-  height: 100vh;
   margin-right: 30px;
 }
 
 div:nth-child(3) {
   grid-area: images;
-  justify-content: center;
 }
 
 div:nth-child(4) {
@@ -76,6 +73,10 @@ i {
 
 a:hover {
 	color: #767676;
+}
+
+#next:hover {
+
 }
 
 #caption {
