@@ -17,8 +17,26 @@ if (window.addEventListener) {
   window.attachEvent("onmousewheel", scrollHorizontally);
 }
 
-function myFunction() {
+function myFunction1() {
   var x = document.getElementById("shelf");
+  if (x.style.display !== "block") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+function myFunction2() {
+  var x = document.getElementById("shelf2");
+  if (x.style.display !== "block") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+function myFunction3() {
+  var x = document.getElementById("shelf3");
   if (x.style.display !== "block") {
     x.style.display = "block";
   } else {
