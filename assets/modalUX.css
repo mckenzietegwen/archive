@@ -19,12 +19,13 @@ section {
 
 #embedgrid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   grid-template-areas:
-  "prototype prototype"
-  "insight hmw"
-  "protoimg protoimg"
-  "feedback feedback";
+  "prototype"
+  "insight"
+  "hmw"
+  "description"
+  "feedback";
   padding: 10px;
   border: 1px solid #4669ef;
 }
@@ -115,12 +116,7 @@ div:nth-child(16) {
 }
 
 div:nth-child(17) {
-  grid-area: protoimg;
-  padding-top: 5vw;
-}
-
-div:nth-child(18) {
-  grid-area: feedback;
+  grid-area: description;
   padding-top: 5vw;
 }
 
@@ -140,6 +136,16 @@ div:nth-child(18) {
 }
 
 /* project labels */
+
+ul {
+  list-style-type: circle;
+  display:list-item;
+  margin-left: 15px;
+}
+
+.prototypeimages {
+  margin: 0 auto;
+}
 
 button {
   color: #4669ef;
@@ -219,7 +225,6 @@ a:hover {
 b {
   font-weight: 500;
 }
-
 
 
 .tooltip {
