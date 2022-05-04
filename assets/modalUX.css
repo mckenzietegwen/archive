@@ -213,7 +213,6 @@ div:nth-child(32) {
   /* margin-right: 90px; */
 }
 
-
 /* close button */
 
 #close {
@@ -230,6 +229,16 @@ div:nth-child(32) {
 }
 
 /* project labels */
+
+#footnotes {
+  font-size: 1.3vw;
+}
+
+sup {
+  vertical-align: super;
+  font-size: .9vw;
+  padding: 0px 2px;
+}
 
 ul {
   list-style-type: circle;
