@@ -25,7 +25,10 @@ section {
   "insight"
   "hmw"
   "description"
-  "feedback";
+  "prototype2"
+  "insight2"
+  "hmw2"
+  "description2";
   padding: 10px;
   border: 1px solid #4669ef;
 }
@@ -64,7 +67,7 @@ div:nth-child(6) {
 div:nth-child(7) {
   grid-area: text;
   padding-top: 5vw;
-  margin-right: 90px;
+  /* margin-right: 90px; */
 }
 
 div:nth-child(8) {
@@ -117,6 +120,28 @@ div:nth-child(16) {
 
 div:nth-child(17) {
   grid-area: description;
+  padding-top: 5vw;
+}
+
+
+div:nth-child(18) {
+  grid-area: prototype2;
+  padding-top: 5vw;
+  text-align: center;
+}
+
+div:nth-child(19) {
+  grid-area: insight2;
+  padding-top: 5vw;
+}
+
+div:nth-child(20) {
+  grid-area: hmw2;
+  padding-top: 5vw;
+}
+
+div:nth-child(21) {
+  grid-area: description2;
   padding-top: 5vw;
 }
 
