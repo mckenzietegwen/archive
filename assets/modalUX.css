@@ -28,7 +28,15 @@ section {
   "prototype2"
   "insight2"
   "hmw2"
-  "description2";
+  "description2"
+  "prototype3"
+  "insight3"
+  "hmw3"
+  "description3"
+  "prototype4"
+  "insight4"
+  "hmw4"
+  "description4";
   padding: 10px;
   border: 1px solid #4669ef;
 }
@@ -142,6 +150,48 @@ div:nth-child(20) {
 
 div:nth-child(21) {
   grid-area: description2;
+  padding-top: 5vw;
+}
+
+div:nth-child(22) {
+  grid-area: prototype3;
+  padding-top: 5vw;
+  text-align: center;
+}
+
+div:nth-child(23) {
+  grid-area: insight3;
+  padding-top: 5vw;
+}
+
+div:nth-child(24) {
+  grid-area: hmw3;
+  padding-top: 5vw;
+}
+
+div:nth-child(25) {
+  grid-area: description3;
+  padding-top: 5vw;
+}
+
+div:nth-child(26) {
+  grid-area: prototype3;
+  padding-top: 5vw;
+  text-align: center;
+}
+
+div:nth-child(27) {
+  grid-area: insight3;
+  padding-top: 5vw;
+}
+
+div:nth-child(28) {
+  grid-area: hmw3;
+  padding-top: 5vw;
+}
+
+div:nth-child(29) {
+  grid-area: description3;
   padding-top: 5vw;
 }
 
