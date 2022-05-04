@@ -3,13 +3,15 @@ body {
   transition: background-color 1s ease;
 }
 
-#header {
+section {
   display: grid;
   grid-template-columns: .5fr 1fr 1.5fr 2fr;
   grid-template-areas:
   "close year title details"
-  "close image image image"
-  "close text text text";
+  ". image image image"
+  ". section text text"
+  ". line line line"
+  ". section2 text2 text2";
   margin: 80px 80px;
 }
 
@@ -40,8 +42,30 @@ div:nth-child(5) {
 }
 
 div:nth-child(6) {
+  grid-area: section;
+  padding-top: 5vw;
+}
+
+div:nth-child(7) {
   grid-area: text;
   padding-top: 5vw;
+  margin-right: 90px;
+}
+
+div:nth-child(8) {
+  grid-area: line;
+  padding-top: 5vw;
+}
+
+div:nth-child(9) {
+  grid-area: section2;
+  padding-top: 5vw;
+}
+
+div:nth-child(10) {
+  grid-area: text2;
+  padding-top: 5vw;
+  margin-right: 90px;
 }
 
 /* close button */
@@ -61,9 +85,23 @@ div:nth-child(6) {
 
 /* project labels */
 
+#shelf {
+  display: none;
+}
+
+#bigpoint {
+  border: 1px solid #4669ef;
+  display: block;
+  padding: 5px 20px;
+  background-color: #4669ef;
+  color: white;
+  font-size: 22px;
+}
+
 #body {
-  font-size: 1.5vw;
-    color: black;
+  font-size: 18px;
+  color: black;
+  font-weight: 200;
 }
 
 #label {
@@ -72,6 +110,9 @@ div:nth-child(6) {
 }
 
 /* label project info */
+hr {
+  border: .5px solid #4669ef;
+}
 
 span {
   font-size: 2vw;
@@ -88,6 +129,10 @@ i {
 
 a:hover {
 	color: #767676;
+}
+
+b {
+  font-weight: 500;
 }
 
 

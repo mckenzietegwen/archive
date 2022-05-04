@@ -16,3 +16,12 @@ if (window.addEventListener) {
   // IE 6/7/8
   window.attachEvent("onmousewheel", scrollHorizontally);
 }
+
+function myFunction() {
+  var x = document.getElementById("shelf");
+  if (x.style.display !== "block") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
