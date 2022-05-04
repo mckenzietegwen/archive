@@ -1,0 +1,112 @@
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  transition: background-color 1s ease;
+}
+
+#header {
+  display: grid;
+  grid-template-columns: .5fr 1fr 1.5fr 2fr;
+  grid-template-areas:
+  "close year title details"
+  "close image image image"
+  "close text text text";
+  margin: 80px 80px;
+}
+
+/* three columns */
+
+div:first-child {
+  grid-area: close;
+  align-items: center;
+}
+
+div:nth-child(2) {
+  grid-area: year;
+  margin-right: 30px;
+}
+
+div:nth-child(3) {
+  grid-area: title;
+}
+
+div:nth-child(4) {
+  grid-area: details;
+}
+
+div:nth-child(5) {
+  grid-area: image;
+  padding-top: 5vw;
+  width: 95%;
+}
+
+div:nth-child(6) {
+  grid-area: text;
+  padding-top: 5vw;
+}
+
+/* close button */
+
+#close {
+  width: 40%;
+}
+
+#next {
+  width: 55%;
+}
+
+#back {
+  width: 55%;
+  transform: scaleX(-1);
+}
+
+/* project labels */
+
+#body {
+  font-size: 1.5vw;
+    color: black;
+}
+
+#label {
+  font-size: 1vw;
+  color: #4669ef;
+}
+
+/* label project info */
+
+span {
+  font-size: 2vw;
+  color: #4669ef;
+}
+
+#details {
+  font-size: 1.5vw;
+}
+
+i {
+  font-style: italic;
+}
+
+a:hover {
+	color: #767676;
+}
+
+
+
+.tooltip {
+  text-decoration:none;
+  position:relative;
+}
+
+.tooltip span {
+  display:none;
+  -moz-border-radius:6px;
+  -webkit-border-radius:6px;
+  border-radius:6px;
+  color:black;
+  background:white;
+}
+
+.tooltip span img {
+  float:left;
+  margin:0px 8px 8px 0;
+}
