@@ -1,8 +1,9 @@
-html,
 body {
   height: 100vh;
   /* overflow: hidden; */
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  overflow-y: hidden;
+  overflow-x:auto;
 }
 
 body {
@@ -105,6 +106,8 @@ sup {
     width: 100vw;
     height: auto;
     margin: 10px 20px;
+    overflow-y: auto;
+    overflow-x: hidden;
   }
 
   span {
