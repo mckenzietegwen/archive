@@ -228,11 +228,10 @@ img{}
   display: none;
   }
 
-  #images {
-    padding-top: 50px;
+  #caption {
+      font-size: 3vw;
+      color: #4669ef;
   }
-
-  img {}
 
   .tooltip {
     position: relative;
