@@ -118,9 +118,19 @@ b {
   visibility: visible;
 }
 
-.showme{
 
+#mobilenav{
 }
+
+#desktopnav{
+  visibility: visible;
+}
+
+#images {
+padding-top: 0;
+}
+
+img{}
 
 @media only screen and (max-width: 600px) {
   #close {
@@ -196,10 +206,33 @@ b {
   visibility: none;
   }
 
-  .showme {
-    visibility: visible;
+
+  #mobilenav{
+    display: flex;
+    padding: 25px 0px 50px 0;
+  }
+
+  #close {
+    width: 30%;
+  }
+
+  #next {
+    width: 45%;
+  }
+
+  #back {
+    width: 45%;
+  }
+
+  #desktopnav{
+  display: none;
+  }
+
+  #images {
     padding-top: 50px;
   }
+
+  img {}
 
   .tooltip {
     position: relative;
@@ -219,4 +252,8 @@ b {
 
   .tooltip:hover .tooltiptext {
     visibility: visible;
+  }
+
+  div:nth-child(4) {
+    padding-top: 50px;
   }
