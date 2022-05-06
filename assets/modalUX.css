@@ -459,3 +459,11 @@ display: none;
   .tooltip:hover .tooltiptext {
     visibility: visible;
   }
+
+  #footnotes {
+    display: none;
+  }
+
+  sup {
+    display: none;
+  }
