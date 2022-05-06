@@ -104,6 +104,7 @@ sup {
   body {
     width: 100vw;
     height: auto;
+    margin: 10px 20px;
   }
 
   span {
