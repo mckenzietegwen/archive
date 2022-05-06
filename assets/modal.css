@@ -151,11 +151,11 @@ b {
     margin: 10px 20px;
   }
 
-  span, #details {
+  span, #details, #hey {
   	font-size: 7vw;
   }
 
-  p {
+  p, #info {
     font-size: 5vw;
     padding-top: 5px;
   }
@@ -205,12 +205,17 @@ b {
 
 
   #mobilenav{
+    visibility: visible;
     display: flex;
     padding: 25px 0px 50px 0;
   }
 
   #close {
     width: 30%;
+  }
+
+  #mobileclose {
+    width: 10%;
   }
 
   #next {
@@ -228,6 +233,10 @@ b {
   #caption {
       font-size: 3vw;
       color: #4669ef;
+  }
+
+  #hey {
+    display: none;
   }
 
   .tooltip {
