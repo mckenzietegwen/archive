@@ -348,3 +348,137 @@ b {
   float:left;
   margin:0px 8px 8px 0;
 }
+
+@media only screen and (max-width: 600px) {
+  #close {
+    width: 10%;
+  }
+
+  #next {
+    width: 15%;
+  }
+
+  #back {
+    width: 15%;
+  }
+
+  body {
+    width: 100vw;
+    height: auto;
+  }
+
+  section {
+    display: block;
+    margin: 10px 20px;
+  }
+
+  span, #details {
+  	font-size: 7vw;
+  }
+
+  p {
+    font-size: 5vw;
+    padding-top: 5px;
+  }
+
+  #label {
+    font-size: 3vw;
+  }
+
+  #twentytwo, #twentyone, #twenty, img {
+    width: 100vw;
+  }
+
+  a {
+    text-decoration: underline;
+    text-decoration-color: #4669ef;
+  }
+
+  li {
+    display: block;
+    float: none;
+    height: auto;
+    color: #4669ef;
+  }
+
+  ul {
+    font-size: 3vw;
+    /* padding-bottom: 20px; */
+    padding-top: 10px;
+    /* padding-right: 40px; */
+    /* line-height: 3vw; */
+  }
+
+  sup {
+    vertical-align: super;
+    font-size: 2.5vw;
+    color: white;
+    padding: 0px 2px;
+  }
+
+  div {
+    padding-bottom: 0px;
+  }
+
+  .hidethis {
+  visibility: none;
+  }
+
+
+  #mobilenav{
+    display: flex;
+    padding: 25px 0px 50px 0;
+  }
+
+  #close {
+    width: 30%;
+  }
+
+  #next {
+    width: 45%;
+  }
+
+  #back {
+    width: 45%;
+  }
+
+  #desktopnav{
+  display: none;
+  }
+
+  #caption {
+      font-size: 3vw;
+      color: #4669ef;
+  }
+
+  .tooltip {
+    position: relative;
+    display: inline-block;
+    padding-bottom: 2vw;
+  }
+
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 0vw;
+    /* background-color: black; */
+    color: #fff;
+    text-align: center;
+    position: absolute;
+    z-index: 1;
+  }
+
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
+
+  div:nth-child(3) {
+    padding-bottom: 19px;
+  }
+
+  div:nth-child(5) {
+    padding-top: 19px;
+  }
+
+  div:nth-child(6) {
+    padding-top: 50px;
+  }
