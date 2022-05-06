@@ -1,7 +1,7 @@
 html,
 body {
   height: 100vh;
-  overflow: hidden;
+  /* overflow: hidden; */
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
@@ -101,8 +101,51 @@ sup {
 }
 
 @media only screen and (max-width: 600px) {
-  section {
-    overflow: auto;
-    display: block;
+  body {
+    width: 100vw;
+    height: auto;
   }
-}
+
+  span {
+  	font-size: 7vw;
+  }
+
+  p {
+    font-size: 5vw;
+  }
+
+  #twentytwo, #twentyone, #twenty, img {
+    width: 100vw;
+  }
+
+  a {
+    text-decoration: underline;
+  }
+
+  li {
+    display: block;
+    float: none;
+    height: auto;
+    color: #4669ef;
+  }
+
+  ul {
+    font-size: 5vw;
+    /* padding-bottom: 20px; */
+    padding-top: 10px;
+    /* padding-right: 40px; */
+    /* line-height: 3vw; */
+  }
+
+  sup {
+    vertical-align: super;
+    font-size: 2.5vw;
+    color: white;
+    padding: 0px 2px;
+  }
+
+  div {
+    padding-bottom: 50px;
+  }
+
+  }
