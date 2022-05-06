@@ -56,6 +56,18 @@ div:nth-child(4) {
 }
 
 /* label project info */
+#wave {
+  display: inline;
+  width: 10%;
+}
+
+#hey {
+  font-size: 3vw;
+  font-weight: 500;
+}
+#moi {
+  width: 75%;
+}
 
 span {
   font-size: 2vw;
@@ -109,9 +121,4 @@ b {
 
 .tooltip:hover .tooltiptext {
   visibility: visible;
-}
-
-#portrait {
-margin-bottom: 0 auto;
-position: absolute;
 }
