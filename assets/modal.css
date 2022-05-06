@@ -18,16 +18,16 @@ div:first-child {
   align-items: center;
 }
 
-div:nth-child(2) {
+div:nth-child(3) {
   grid-area: metadata;
   margin-right: 30px;
 }
 
-div:nth-child(3) {
+div:nth-child(4) {
   grid-area: images;
 }
 
-div:nth-child(4) {
+div:nth-child(5) {
   grid-area: caption;
   text-align: right;
   padding-top: 10px;
@@ -120,17 +120,13 @@ b {
 
 
 #mobilenav{
+  display: none;
 }
 
 #desktopnav{
   visibility: visible;
 }
 
-#images {
-padding-top: 0;
-}
-
-img{}
 
 @media only screen and (max-width: 600px) {
   #close {
