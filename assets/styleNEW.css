@@ -101,6 +101,16 @@ sup {
   visibility: visible;
 }
 
+#blink_me {
+  animation: blinker 2s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
 @media only screen and (max-width: 600px) {
   body {
     width: 100vw;
