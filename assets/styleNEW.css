@@ -70,6 +70,11 @@ sup {
   background: #EF2D56;
 }
 
+#ipr {
+  border: 1px solid #747474;
+  background: #747474;
+}
+
 #layout {
   border: 1px solid #0CCE6B;
   background: #0CCE6B;
