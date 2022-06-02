@@ -31,7 +31,7 @@ p {
 
 #hero {
   padding-right: 60px;
-  width: 100vw;
+  width: 75vw;
 }
 
 em {
@@ -127,6 +127,10 @@ sup {
   p {
     font-size: 5vw;
     padding-top: 50px;
+  }
+
+  #hero {
+    width: 100vw;
   }
 
   #twentytwo, #twentyone, #twenty, img {
